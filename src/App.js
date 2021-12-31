@@ -23,7 +23,7 @@ export default function App() {
       <h1>Timer</h1>
       <h2>{value}!</h2>
       <Counter />
-      {/* <button onClick={startTimer}>START</button>
+      <button onClick={startTimer}>START</button>
       <button onClick={pauseTimer}>PAUSE</button>
       <button onClick={resetTimer}>RESET</button>
       <div>USE FETCH</div>
@@ -34,7 +34,7 @@ export default function App() {
       </div>
       <div>
         <button onClick={() => setPage((prev) => prev + 1)}>NEXT</button>
-      </div> */}
+      </div>
     </div>
   );
 }
